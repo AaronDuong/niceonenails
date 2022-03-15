@@ -13,8 +13,24 @@ html {
 }
 
 body {
+	/* display: flex;
+	flex-direction: column; */
 	font-size: 2rem;
 	background: var(--neutral-color);
+}
+
+footer {
+	background: var(--dark-blue);
+	color: white;
+	height: 100px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 5px 5px 5px 5px gray;
+}
+
+footer span {
+	color: var(--yellow-color);
 }
 
 .navbar {
@@ -34,10 +50,10 @@ body {
 	font-family: "Arizonia", cursive;
 }
 
-#nails {
+#nailsLogo {
 	font-family: "Asset", cursive;
 	color: var(--yellow-color);
-	text-shadow: 2px 2px 2px;
+	text-shadow: 2px 2px 2px black;
 }
 
 /* Layout for Hero Banner*/
@@ -92,4 +108,37 @@ body {
 	background: linear-gradient(to right, rgb(74, 172, 233), rgb(64, 151, 214));
 	border: none;
 	text-align: right;
+}
+
+#nails {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 3rem;
+	padding: 2rem;
+	background: rgb(64, 151, 214);
+	margin-top: 5px;
+	font-size: 1.5rem;
+}
+
+#nails .card {
+	box-shadow: 0 0 20px 0px lightblue;
+	background: var(--blue-color);
+	color: white;
+	border-radius: 10px;
+}
+
+#nails img {
+	aspect-ratio: 1/1;
+}
+
+.card-text {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2rem;
+	color: darkblue;
+}
+
+.card-price {
+	text-align: center;
 }

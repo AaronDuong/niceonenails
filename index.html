@@ -13,13 +13,15 @@
 		/>
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/styles.css" />
+		<script src="js/script.js" defer></script>
 	</head>
 	<body>
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 				<div class="container-fluid">
 					<a class="navbar-brand" href="#"
-						><span id="niceone">Nice One</span> <span id="nails">NAILS</span></a
+						><span id="niceone">Nice One</span>
+						<span id="nailsLogo">NAILS</span></a
 					>
 					<button
 						class="navbar-toggler"
@@ -38,23 +40,23 @@
 								<a class="nav-link active" aria-current="page" href="#">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Nails</a>
+								<a class="nav-link" href="#nails">Nails</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Waxing</a>
+								<a class="nav-link" href="#waxing">Waxing</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Gallery</a>
+								<a class="nav-link" href="#gallery">Gallery</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Contact Us</a>
+								<a class="nav-link" href="#contact_us">Contact Us</a>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</nav>
 		</header>
-		<section id="#class" ="hero-container">
+		<section id="home" class="hero-container">
 			<div class="salon-pic">
 				<img src="images/baseline.png" alt="Picture of Salon" />
 			</div>
@@ -75,8 +77,62 @@
 				</div>
 			</div>
 		</section>
-		<main></main>
-		<footer></footer>
+		<section id="nails">
+			<div class="card" style="width: 22rem">
+				<img
+					src="/images/dipnails.png"
+					class="card-img-top"
+					alt="dipping nails"
+				/>
+				<div class="card-body">
+					<p class="card-text">Dipping Power:</p>
+					<p class="card-price">Natural Nails .... $45</p>
+					<p class="card-price">With Extensions .... $55</p>
+				</div>
+			</div>
+			<div class="card" style="width: 22rem">
+				<img
+					src="images/acrylicnails.png"
+					class="card-img-top"
+					alt="acrylic nails"
+				/>
+				<div class="card-body">
+					<p class="card-text">Acrylic Nails:</p>
+					<p class="card-price">New set .... $40</p>
+					<p class="card-price">Refill .... $30</p>
+				</div>
+			</div>
+			<div class="card" style="width: 22rem">
+				<img
+					src="images/solarnails.jpeg"
+					class="card-img-top"
+					alt="solar nails"
+				/>
+				<div class="card-body">
+					<p class="card-text">Solar Nails:</p>
+					<p class="card-price">New set .... $50</p>
+					<p class="card-price">Refill .... $35</p>
+				</div>
+			</div>
+			<div class="card" style="width: 22rem">
+				<img src="images/biogel.png" class="card-img-top" alt="bio gel nails" />
+				<div class="card-body">
+					<p class="card-text">Bio-Gel Nails:</p>
+					<p class="card-price">New set .... $60</p>
+					<p class="card-price">Refill .... $45</p>
+				</div>
+			</div>
+		</section>
+		<section id="waxing"></section>
+		<section id="gallery"></section>
+		<section id="contact_us"></section>
+		<footer>
+			<p>
+				Copyright &copy;
+				<span class="currentdate">2022</span> Nice One Nails (Merivale &
+				Baseline Locations) | All Rights Reserved.
+			</p>
+		</footer>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
