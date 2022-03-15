@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&family=Asset&family=Roboto:ital,wght@0,400;0,900;1,400;1,900&display=swap");
+:root {
+	--dark-blue: #1c658c;
+	--blue-color: rgb(74, 172, 233);
+	--neutral-color: #d8d2cb;
+	--light-color: #eeeeee;
+	--yellow-color: rgb(253, 241, 80);
+}
+
+html {
+	font-size: 62.5%;
+	font-family: "Roboto", sans-serif;
+}
+
+body {
+	font-size: 2rem;
+	background: var(--neutral-color);
+}
+
+.navbar {
+	box-shadow: 0 0 5px 5px var(--dark-blue);
+}
+
+/* right algin the links */
+.navbar-nav {
+	margin-left: auto;
+}
+/* style the Nice One Nails Logo */
+.navbar-brand {
+	font-size: 3rem;
+}
+
+#niceone {
+	font-family: "Arizonia", cursive;
+}
+
+#nails {
+	font-family: "Asset", cursive;
+	color: var(--yellow-color);
+	text-shadow: 2px 2px 2px;
+}
+
+/* Layout for Hero Banner*/
+.hero-container {
+	display: flex;
+	flex-wrap: wrap;
+	background: var(--blue-color);
+	padding: 4rem;
+	box-shadow: 0 0 5px 5px;
+	justify-content: space-around;
+	gap: 20px;
+}
+
+.salon-pic img {
+	border-radius: 50%;
+	width: 400px;
+	aspect-ratio: 1/1;
+	display: block;
+	border: 3px solid white;
+	box-shadow: 0 2px 5px 5px white;
+}
+
+/* Styling for button locations */
+.locations {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 3rem;
+}
+
+.locations h2 {
+	font-size: 3.5rem;
+	color: var(--yellow-color);
+}
+
+.locations .telephone {
+	font-size: 5rem;
+	font-weight: bold;
+}
+
+.locations .address {
+	font-size: 3rem;
+}
+
+.address-container {
+}
+
+.btn-location {
+	border-radius: 10px;
+	width: 100%;
+	padding: 2rem;
+	background: linear-gradient(to right, rgb(74, 172, 233), rgb(64, 151, 214));
+	border: none;
+	text-align: right;
+}
