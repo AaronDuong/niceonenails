@@ -24,7 +24,6 @@ body {
 footer {
 	background: var(--dark-blue);
 	color: white;
-	height: 100px;
 	display: grid;
 	justify-content: center;
 	align-items: center;
