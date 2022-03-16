@@ -158,6 +158,7 @@ footer span {
 	font-size: 3rem;
 	font-weight: bold;
 	padding: 2rem;
+	text-shadow: 0 5px 10px black;
 }
 
 .heading-description {
