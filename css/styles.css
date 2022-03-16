@@ -128,7 +128,7 @@ footer span {
 	background: var(--blue-color);
 	color: white;
 	border-radius: 10px;
-	width: 26rem;
+	width: 30rem;
 }
 
 #nails img,
@@ -193,4 +193,16 @@ footer span {
 
 #waxing .heading-description {
 	flex-basis: 100%;
+}
+
+#contact_us .locations {
+	gap: 0;
+}
+
+#contact_us .btn-location {
+	border-radius: 0;
+}
+
+#contact_us a {
+	cursor: pointer;
 }
