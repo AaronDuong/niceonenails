@@ -5,11 +5,13 @@
 	--neutral-color: #d8d2cb;
 	--light-color: #eeeeee;
 	--yellow-color: rgb(253, 241, 80);
+	--dark-text: rgb(71, 69, 69);
 }
 
 html {
 	font-size: 62.5%;
 	font-family: "Roboto", sans-serif;
+	line-height: 1.6;
 }
 
 body {
@@ -26,7 +28,7 @@ footer {
 	display: grid;
 	justify-content: center;
 	align-items: center;
-	box-shadow: 5px 5px 5px 5px gray;
+	box-shadow: 5px 5px 5px gray;
 }
 
 footer span {
@@ -62,9 +64,9 @@ footer span {
 	flex-wrap: wrap;
 	background: var(--blue-color);
 	padding: 4rem;
-	box-shadow: 0 0 5px 5px;
+	box-shadow: 0 0 5px black;
 	justify-content: space-around;
-	gap: 20px;
+	gap: 3rem;
 }
 
 .salon-pic img {
@@ -98,9 +100,6 @@ footer span {
 	font-size: 3rem;
 }
 
-.address-container {
-}
-
 .btn-location {
 	border-radius: 10px;
 	width: 100%;
@@ -114,18 +113,19 @@ footer span {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	gap: 3rem;
+	gap: 5rem;
 	padding: 2rem;
-	background: rgb(64, 151, 214);
+	background: var(--neutral-color);
 	margin-top: 5px;
 	font-size: 1.5rem;
 }
 
-#nails .card {
-	box-shadow: 0 0 20px 0px lightblue;
+.card {
+	box-shadow: 0 0 20px black;
 	background: var(--blue-color);
 	color: white;
 	border-radius: 10px;
+	width: 26rem;
 }
 
 #nails img {
@@ -140,5 +140,53 @@ footer span {
 }
 
 .card-price {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 1.5rem;
+	font-size: 2rem;
+}
+
+.heading {
+	flex-basis: 100%;
 	text-align: center;
+	color: var(--dark-text);
+	font-size: 3rem;
+	font-weight: bold;
+	padding: 2rem;
+}
+
+.heading-description {
+	flex-basis: 100%;
+	padding: 2rem;
+	padding: 2rem 4rem;
+	font-size: 2rem;
+	color: var(--dark-text);
+	border: 2px solid gray;
+	margin: 1rem 4rem;
+	border-radius: 10px;
+	box-shadow: 0 0 20px black;
+	background: var(--light-color);
+	max-width: 1100px;
+}
+
+.heading-description h2 {
+	font-size: 2.5rem;
+	padding: 1rem 0;
+}
+
+.heading-description p {
+	margin-top: 1rem;
+}
+
+#waxing {
+	background: var(--blue-color);
+	display: flex;
+	flex-wrap: wrap;
+	padding: 3rem;
+	justify-content: center;
+	gap: 3rem;
+}
+
+#waxing .heading-description {
+	flex-basis: 33%;
 }
