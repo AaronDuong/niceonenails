@@ -65,7 +65,7 @@ footer span {
 	display: flex;
 	flex-wrap: wrap;
 	background: var(--blue-color);
-	padding: 4rem;
+	padding: 2rem;
 	box-shadow: 0 0 5px black;
 	justify-content: space-around;
 	gap: 3rem;
@@ -116,9 +116,9 @@ footer span {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	gap: 5rem;
+	gap: 3rem;
 	padding: 2rem;
-	background: var(--neutral-color);
+	background: var(--dark-blue);
 	margin-top: 5px;
 	font-size: 1.5rem;
 }
@@ -153,7 +153,7 @@ footer span {
 .heading {
 	flex-basis: 100%;
 	text-align: center;
-	color: var(--dark-text);
+	color: white;
 	font-size: 3rem;
 	font-weight: bold;
 	padding: 2rem;
