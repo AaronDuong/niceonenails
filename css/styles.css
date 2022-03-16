@@ -200,6 +200,7 @@ footer span {
 	display: flex;
 	flex-wrap: wrap;
 	background-color: var(--dark-blue);
+	padding: 2rem;
 }
 
 #contact_us .locations {
@@ -224,7 +225,6 @@ footer span {
 
 .map-container {
 	width: 100%;
-	border-radius: 10px;
 	border: 20px solid white;
 	box-shadow: 0 0 5px black;
 }
@@ -236,9 +236,29 @@ footer span {
 
 #gallery {
 	background: var(--blue-color);
-	height: 100px;
+}
+.gallery-container {
+	padding: 2rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 1rem;
 }
 
-.carousel-item img {
-	width: 50%;
+#gallery img {
+	aspect-ratio: 1/1;
+}
+
+@media only screen and (max-width: 800px) {
+	.gallery-container {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.gallery-container {
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(6, 1fr);
+	}
 }
