@@ -109,7 +109,8 @@ footer span {
 	text-align: right;
 }
 
-#nails {
+#nails,
+#manicures {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -128,7 +129,8 @@ footer span {
 	width: 26rem;
 }
 
-#nails img {
+#nails img,
+#manicures img {
 	aspect-ratio: 1/1;
 }
 
