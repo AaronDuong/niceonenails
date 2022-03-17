@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Arizonia&family=Asset&family=Roboto:ital,wght@0,400;0,900;1,400;1,900&display=swap");
 :root {
-	--dark-blue: #1c658c;
+	--dark-blue: white;
+	/* --dark-blue: #1c658c; */
 	--blue-color: rgb(74, 172, 233);
 	--neutral-color: #d8d2cb;
 	--light-color: #eeeeee;
@@ -20,7 +21,7 @@ body {
 }
 
 footer {
-	background: var(--dark-blue);
+	background: var(--blue-color);
 	color: white;
 	display: grid;
 	justify-content: center;
@@ -121,7 +122,7 @@ footer span {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	gap: 3rem;
+	gap: 2rem;
 	padding: 2rem;
 	background: var(--dark-blue);
 	margin-top: 5px;
@@ -136,7 +137,7 @@ footer span {
 	background: var(--blue-color);
 	color: white;
 	border-radius: 10px;
-	width: 30rem;
+	width: 32rem;
 }
 
 #nails img,
@@ -172,11 +173,10 @@ footer span {
 .heading-description {
 	flex-basis: 100%;
 	padding: 2rem;
-	padding: 2rem 4rem;
 	font-size: 2rem;
 	color: var(--dark-text);
 	border: 2px solid gray;
-	margin: 1rem 4rem;
+	margin: 3rem;
 	border-radius: 10px;
 	box-shadow: 0 0 20px black;
 	background: var(--light-color);
@@ -211,7 +211,7 @@ footer span {
 #contact_us {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: var(--dark-blue);
+	background-color: var(--blue-color);
 	padding: 2rem;
 	max-width: 1100px;
 	margin: 0 auto;
@@ -229,7 +229,7 @@ footer span {
 
 #contact_us .btn-location {
 	border-radius: 0;
-	background: var(--dark-blue);
+	background: var(--blue-color);
 	text-align: center;
 }
 
