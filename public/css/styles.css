@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&family=Asset&family=Roboto:ital,wght@0,400;0,900;1,400;1,900&display=swap");
+:root {
+	--dark-blue: white;
+	/* --dark-blue: #1c658c; */
+	--blue-color: rgb(74, 172, 233);
+	--neutral-color: #d8d2cb;
+	--light-color: #eeeeee;
+	--yellow-color: rgb(253, 241, 80);
+	--dark-text: rgb(71, 69, 69);
+}
+
+html {
+	font-size: 62.5%;
+	font-family: "Roboto", sans-serif;
+	line-height: 1.6;
+}
+
+body {
+	font-size: 2rem;
+	background: var(--neutral-color);
+}
+
+footer {
+	background: var(--blue-color);
+	color: white;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 0 5px black;
+	padding: 2rem;
+	text-align: center;
+	border-top: 2px solid gray;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+footer span {
+	color: var(--yellow-color);
+}
+
+.navbar {
+	box-shadow: 0 0 5px black;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+/* right algin the links */
+.navbar-nav {
+	margin-left: auto;
+}
+/* style the Nice One Nails Logo */
+.navbar-brand {
+	font-size: 3rem;
+}
+
+#niceone {
+	font-family: "Arizonia", cursive;
+}
+
+#nailsLogo {
+	font-family: "Asset", cursive;
+	color: var(--yellow-color);
+	text-shadow: 2px 2px 2px black;
+}
+
+/* Layout for Hero Banner*/
+.hero-container {
+	display: flex;
+	flex-wrap: wrap;
+	background: var(--blue-color);
+	padding: 2rem;
+	box-shadow: 0 0 5px black;
+	justify-content: space-around;
+	gap: 3rem;
+	margin: 0 auto;
+	margin-top: 65px;
+	max-width: 1100px;
+}
+
+.salon-pic img {
+	border-radius: 50%;
+	width: 400px;
+	aspect-ratio: 1/1;
+	display: block;
+	border: 3px solid white;
+	box-shadow: 0 2px 5px 5px white;
+}
+
+/* Styling for button locations */
+.locations {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 3rem;
+}
+
+.locations h2 {
+	font-size: 3.5rem;
+	color: var(--yellow-color);
+}
+
+.locations .telephone {
+	font-size: 3.5rem;
+	font-weight: bold;
+}
+
+.locations .address {
+	font-size: 3rem;
+}
+
+.btn-location {
+	border-radius: 10px;
+	width: 100%;
+	padding: 2rem;
+	background: linear-gradient(to right, rgb(74, 172, 233), rgb(64, 151, 214));
+	border: none;
+	text-align: right;
+}
+
+#nails,
+#manicures {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 2rem;
+	padding: 2rem;
+	background: var(--dark-blue);
+	margin-top: 5px;
+	font-size: 1.5rem;
+	max-width: 1100px;
+	margin: 0 auto;
+	box-shadow: 0 0 5px black;
+}
+
+.card {
+	box-shadow: 0 0 20px black;
+	background: var(--blue-color);
+	color: white;
+	border-radius: 10px;
+	width: 32rem;
+}
+
+#nails img,
+#manicures img {
+	aspect-ratio: 1/1;
+}
+
+.card-text {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2.5rem;
+	color: rgba(255, 255, 255, 0.8);
+	text-shadow: 0 0 10px black;
+}
+
+.card-price {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 1.5rem;
+	font-size: 2rem;
+}
+
+.heading {
+	flex-basis: 100%;
+	text-align: center;
+	color: white;
+	font-size: 3rem;
+	font-weight: bold;
+	padding: 2rem;
+	text-shadow: 0 5px 10px black;
+}
+
+.heading-description {
+	flex-basis: 100%;
+	padding: 2rem;
+	font-size: 2rem;
+	color: var(--dark-text);
+	border: 2px solid gray;
+	margin: 3rem;
+	border-radius: 10px;
+	box-shadow: 0 0 20px black;
+	background: var(--light-color);
+	max-width: 1100px;
+}
+
+.heading-description h2 {
+	font-size: 2.5rem;
+	padding: 1rem 0;
+}
+
+.heading-description p {
+	margin-top: 1rem;
+}
+
+#waxing {
+	background: var(--blue-color);
+	display: flex;
+	flex-wrap: wrap;
+	padding: 3rem;
+	justify-content: center;
+	gap: 3rem;
+	max-width: 1100px;
+	margin: 0 auto;
+	box-shadow: 0 0 5px black;
+}
+
+#waxing .heading-description {
+	flex-basis: 100%;
+}
+
+#contact_us {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: var(--blue-color);
+	padding: 2rem;
+	max-width: 1100px;
+	margin: 0 auto;
+	box-shadow: 0 0 5px black;
+}
+
+#contact_us .locations {
+	gap: 0;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+}
+
+#contact_us .btn-location {
+	border-radius: 0;
+	background: var(--blue-color);
+	text-align: center;
+}
+
+#contact_us a {
+	cursor: pointer;
+	width: 100%;
+}
+
+.map-container {
+	width: 100%;
+	border: 20px solid white;
+	box-shadow: 0 0 5px black;
+}
+
+.map-container img {
+	width: 100%;
+	display: block;
+}
+
+#gallery {
+	background: var(--blue-color);
+	max-width: 1100px;
+	margin: 0 auto;
+	box-shadow: 0 0 5px black;
+}
+.gallery-container {
+	padding: 2rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 1rem;
+}
+
+#gallery img {
+	aspect-ratio: 1/1;
+}
+
+.business-hours {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+	padding: 2rem;
+	color: white;
+	width: 100%;
+	margin-bottom: 2rem;
+	font-size: 2rem;
+}
+
+@media only screen and (max-width: 800px) {
+	.gallery-container {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.gallery-container {
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(6, 1fr);
+	}
+}
